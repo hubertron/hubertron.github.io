@@ -84,7 +84,7 @@ hr {
     display: block;
     text-align: left;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #eee;
     padding: 25px;
     border: 1px solid transparent;
     overflow: hidden;
@@ -110,7 +110,8 @@ hr {
       background-position: 50% 50%;
       border: 10px solid #fff;
       height: 100%;
-      opacity: .3; }
+      opacity: .3;
+       }
     .posts .post-link .post-title {
       margin: 0 0 5px; }
     .posts .post-link .meta {
@@ -121,16 +122,22 @@ hr {
       margin: 20px 0 0;
       max-height: 100px;
       overflow: hidden;
-      font-weight: normal; }
+      font-weight: normal;
+       }
     .posts .post-link .mark {
       opacity: 0; }
     .posts .post-link:hover {
       border: 1px solid #eee;
-      box-shadow: 0 0 25px #eee; }
+      box-shadow: 0 0 25px #eee;
+       }
       .posts .post-link:hover .mark {
         opacity: 1; }
       .posts .post-link:hover .post-cover {
         opacity: .6; }
+    .posts .post-link:hover  h2 {
+      text-decoration: underline;
+    }
+
 
 
 

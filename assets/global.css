@@ -89,7 +89,12 @@ blockquote {
 
 
 .posts, .posts li {
-  list-style: none; }
+  list-style: none;    
+   }
+.posts li {
+  -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.2)
+}
 
 a {
   text-decoration: none;
