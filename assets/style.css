@@ -7,7 +7,7 @@ body {
   padding: 20px 10px; }
 
 a {
-  color: #6AD;
+  color: #000;
   font-weight: 700; }
 
 b, strong, h1, h2, h3, h4, h5 {
@@ -26,7 +26,7 @@ hr {
   margin: auto; }
 
 .site-footer {
-  text-align: center;
+  text-align: left;
   padding: 25px; }
 
 .site-header {
@@ -47,12 +47,12 @@ hr {
     margin-bottom: 5px;
     font-weight: bold; }
     .site-header .site-title:hover {
-      color: #59b; }
+      color: #000; }
       .site-header .site-title:hover .block {
-        background-color: #6AD; }
+        background-color: #000; }
       .site-header .site-title:hover .lastname {
         opacity: .7;
-        color: #59b; }
+        color: #000; }
     .site-header .site-title .block {
       display: inline-block;
       width: 30px;
@@ -171,6 +171,9 @@ article {
       margin: 0; }
   article ul, article ol {
     margin: 20px 0 20px 20px; }
+    article a {
+      text-decoration: underline;
+    }
 
 .pagination {
   margin-top: 25px;
