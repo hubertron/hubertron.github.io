@@ -1,0 +1,16 @@
+title:            Steven's Daily Links
+url:              http://hubertron.github.io
+permalink:        pretty
+pygments:         true
+markdown:         rdiscount
+rdiscount:
+  extensions:     
+    - autolink
+    - smart
+    - footnotes
+google_analytics: UA-1735487-1
+timezone:         America/Denver
+paginate: 5
+links: 
+  - name:         Twitter
+    url:          https://twitter.com/stevenhubertron
